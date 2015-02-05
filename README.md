@@ -1,2 +1,2 @@
 # sequentialpromises
-Wrap and run promises in order (not async)
+Wrap and run promises in order (not at once)

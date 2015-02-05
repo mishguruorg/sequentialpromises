@@ -1,0 +1,27 @@
+{
+  "name": "seqprom",
+  "version": "1.0.0",
+  "description": "Wrap and run promises in order (not at once)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs --require specs/helpers/chai.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mishguruorg/sequentialpromises.git"
+  },
+  "author": "jacob duval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishguruorg/sequentialpromises/issues"
+  },
+  "homepage": "https://github.com/mishguruorg/sequentialpromises",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "q": "^1.1.2"
+  }
+}
