@@ -1,4 +1,5 @@
 # sequentialpromises
+[![Circle CI](https://circleci.com/gh/mishguruorg/sequentialpromises.svg?style=svg)](https://circleci.com/gh/mishguruorg/sequentialpromises)
 Wrap and run promises in order (not at once)
 Like Q.all() but functions will run one after the other
 
