@@ -50,6 +50,7 @@ describe('When queueing a series of functions', function () {
                 expect(results[2]).equal(5);
                 expect(results[3]).equal(6);
                 done();
-            });
+            })
+            .catch(done);
     });
 });
