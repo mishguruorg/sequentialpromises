@@ -4,7 +4,7 @@
   "description": "Wrap and run promises in order (not at once)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha specs --require specs/helpers/chai.js"
+    "test": "standard && mocha specs"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "q": "^1.1.2"
+    "q": "^1.1.2",
+    "standard": "^3.5.0"
   }
 }

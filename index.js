@@ -1,3 +1,3 @@
-var seqprom = require('./lib/sequentialpromises');
+var seqprom = require('./lib/sequentialpromises')
 
-module.exports = seqprom;
+module.exports = seqprom
